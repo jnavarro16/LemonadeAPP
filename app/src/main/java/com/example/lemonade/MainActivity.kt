@@ -127,6 +127,13 @@ fun LemonadeApp()
                     }
                 }
         )
+
+        Spacer(modifier = Modifier.padding(20.dp))
+
+        Text( // la descripcion del paso
+            text = stringResource(descripcion),
+            fontSize = 18.sp
+        )
     }
 }
 
